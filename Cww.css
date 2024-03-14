@@ -1,0 +1,94 @@
+*{
+    margin: 0%; padding: 0%; box-sizing: border-box;
+}
+.clear{
+    clear: both;
+}
+nav{
+    background-color: navy; color:  beige ; 
+}
+.Logo{ font-size: 2.5rem;
+    
+
+}
+
+h1{
+    float: left; margin: 0rem 2rem ; padding: 1rem 3rem 1rem 1rem;
+}
+nav ul {
+    float: right; margin: 1rem 4rem; font-size: 1.5rem;
+}
+a{
+    text-decoration: none; color: beige
+}
+a:hover{
+    color: rgb(156, 33, 33); font-family: fantasy;
+}
+
+nav li{
+    float:  left; margin: 1rem 1rem 1rem 1rem; padding: 0rem 3rem ;list-style: none;
+}
+
+ body{ background-color: darkblue;}
+ #BIG5Check{
+    padding-top: 1rem;
+ }
+#bi{
+    margin: 1rem; padding-top: 0.3rem;
+}
+
+h2 {
+    text-align: center; margin-top: 2rem ; font-size: 2.2rem;color: beige;
+}
+
+#box { border: white dotted ; 
+     margin: 1rem 1rem  10rem 20rem;
+      text-align: justify; 
+       border-radius: 1;
+    height: 150vh; 
+    width: 50%;
+    border-radius: 3%;
+    
+}
+
+
+input{
+    border-radius: 0.5rem;padding: 1rem auto; text-align: center;
+}
+
+ form input,
+ form label
+  { 
+    display: block;
+     text-align: justify;
+      margin-top:0.5rem ;
+    font-size:1.4rem; width: 100%;
+    padding: 1rem 4rem 0rem 1rem ;
+    color:black; 
+    
+
+}
+
+    .submit-button{
+        text-align:justify; 
+        width: 20rem;
+    }
+
+
+form button{font-size: 1rem; 
+    cursor: pointer;
+border: none; 
+ border-radius:2rem; 
+ margin: 5rem 0rem 0rem 5rem ; 
+ width: 30rem;
+ padding: 1rem 1rem 1rem 1rem ;
+color: green;
+background-color: navy;}
+button:hover{
+    color: blue;
+}
+button:clicked{
+    color: red;
+}
+
+
